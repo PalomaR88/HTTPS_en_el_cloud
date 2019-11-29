@@ -37,7 +37,7 @@ CN = *.paloma.gonzalonazareno.org
 
 Y se crea el fichero .csr y la clave:
 ~~~
-sudo openssl req -new -sha256 -nodes -out paloma.gonzalonazareno.org.csr -newkey rsa:4096 -keyout gonzalonazareno.pem -config paloma.gonzalonazareno.conf
+sudo openssl req -new -sha256 -nodes -out paloma.gonzalonazareno.org.csr -newkey rsa:4096 -keyout gonzalonazareno.pem -config paloma.gonzalonazareno.org.conf
 ~~~
 
 ### Tras obtener el certificado firmado
@@ -104,3 +104,6 @@ sudo firewall-cmd --zone=public --add-port=443/tcp --permanent
 sudo firewall-cmd reload
 sudo systemctl restart firewalld
 ~~~
+
+![Wordpress](aimg.png)
+![Nextcloud](bimg.png)
