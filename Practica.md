@@ -105,5 +105,5 @@ sudo firewall-cmd reload
 sudo systemctl restart firewalld
 ~~~
 
-![Wordpress](aimg.png)
-![Nextcloud](bimg.png)
+![Wordpress](images/aimg.png)
+![Nextcloud](images/bimg.png)
